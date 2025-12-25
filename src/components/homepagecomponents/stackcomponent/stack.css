@@ -1,0 +1,43 @@
+.stackcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.stackiuse {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+}
+
+.stack-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000; /* simple box */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.stack-item:hover {
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.stack-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.stack-item p {
+  margin: 0;
+  font-size: 20px;
+} 

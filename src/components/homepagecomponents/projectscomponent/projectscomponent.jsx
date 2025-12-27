@@ -6,13 +6,13 @@ const ProjectsComponent = () => {
     <>
     <div className="projectcontainer">
         <div className="project-heading">
-            <h2>P</h2>
-            <h2>R</h2>
-            <h2>J</h2>
-            <h2>E</h2>
-            <h2>C</h2>
-            <h2>T</h2>
-            <h2>S</h2>
+            <h1>P</h1>
+            <h1>R</h1>
+            <h1>J</h1>
+            <h1>E</h1>
+            <h1>C</h1>
+            <h1>T</h1>
+            <h1>S</h1>
         </div>
         <div className="projects-core">
             

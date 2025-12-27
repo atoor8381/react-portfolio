@@ -30,9 +30,9 @@ const BasicInformation = () => {
           </div>
         </div>
         <div className="social-links">
-          <a href="https://www.instagram.com/hhttoooorr/" target="_blank"><FaInstagram size={24} /></a>
-          <a href="https://github.com/atoor8381" target="_blank"><FaGithub size={24} /></a>
-          <a href="https://x.com/atoor8381" target="_blank"><FaXTwitter size={24} /></a>
+          <a href="https://www.instagram.com/hhttoooorr/" target="_blank"><FaInstagram size={50} /></a>
+          <a href="https://github.com/atoor8381" target="_blank"><FaGithub size={50} /></a>
+          <a href="https://x.com/atoor8381" target="_blank"><FaXTwitter size={50} /></a>
         </div>
        
       </div>

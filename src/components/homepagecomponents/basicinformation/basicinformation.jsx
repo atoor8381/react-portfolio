@@ -9,11 +9,11 @@ import { FaXTwitter } from "react-icons/fa6";
 const BasicInformation = () => {
   return (
     <>
-      <div className="basic-information-container">
-        <div className="basicinfo-name-pic">
+        <div className="basicinfo">
           <div className="picture">
             <img src={personal} alt="Profile" />
           </div>
+          <div className="info">
           <div className="name-basic">
             <h2>
               Ali Hussnain.
@@ -28,14 +28,13 @@ const BasicInformation = () => {
               Based in Pakistan.
             </p>
           </div>
+          <div className="social-links">
+            <a href="https://www.instagram.com/hhttoooorr/" target="_blank"><FaInstagram size={24} /></a>
+            <a href="https://github.com/atoor8381" target="_blank"><FaGithub size={24} /></a>
+            <a href="https://x.com/atoor8381" target="_blank"><FaXTwitter size={24} /></a>
+          </div>
+        </div>       
         </div>
-        <div className="social-links">
-          <a href="https://www.instagram.com/hhttoooorr/" target="_blank"><FaInstagram size={50} /></a>
-          <a href="https://github.com/atoor8381" target="_blank"><FaGithub size={50} /></a>
-          <a href="https://x.com/atoor8381" target="_blank"><FaXTwitter size={50} /></a>
-        </div>
-       
-      </div>
     </>
   );
 }

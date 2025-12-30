@@ -8,6 +8,8 @@
   overflow-y: scroll;
   height: 100%;
   padding: 2%;
+  
+  scrollbar-width: none;
 }
 .remainingcontainer{
   width: 75%;
@@ -24,5 +26,12 @@
   .basiccontainer, .remainingcontainer{
     width: 100%;
     height: auto;
+  }
+}
+@media (min-width: 1660px) {
+  .basiccontainer{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
   }
 }
